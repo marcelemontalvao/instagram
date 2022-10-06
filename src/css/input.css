@@ -1,0 +1,13 @@
+header input {
+    width: 25%;
+    height: 26px; 
+    font-size: 11px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+
