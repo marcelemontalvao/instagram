@@ -4,7 +4,7 @@
     width: 100%;
     height: 7rem;
     margin-top: 4rem;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .menu li {
@@ -20,7 +20,7 @@
     width: 80px;
     font-size: 15px;
     text-overflow: ellipsis;
-    overflow:hidden;
+    overflow-x:hidden;
     white-space:nowrap
 }
 
@@ -167,12 +167,11 @@ aside {
     font-size: 17px;
 }
 
-.description .text-description span , .comments-post .text-description span{
+.text-description span{
+    line-height: 200%;
     text-overflow: ellipsis;
     overflow:hidden;
     white-space:nowrap;
-    word-wrap: break-word; 
-    word-break: break-word;
 }
 
 .number-all-posts {
